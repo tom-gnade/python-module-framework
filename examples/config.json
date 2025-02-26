@@ -1,0 +1,23 @@
+{
+  "logging": {
+    "level": "INFO",
+    "console_output": true,
+    "file_output": true,
+    "log_dir": "./logs",
+    "rotate_size_mb": 10,
+    "backup_count": 5
+  },
+  "hello_world_module": {
+    "message": "Hello from configuration!",
+    "interval": 2.0,
+    "count": 10
+  },
+  "system_info_module": {
+    "collection_interval": 5,
+    "output_file": "system_stats.json",
+    "report_cpu": true,
+    "report_memory": true,
+    "report_disk": true,
+    "report_network": true
+  }
+}
